@@ -1,0 +1,412 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+/*navbar*/
+.navbar{
+  width: 100%;
+  height: 50px;
+  background: #360836;
+}
+.navbar ul{
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  line-height: 50px;
+}
+.navbar ul li{
+  display: inline-block;
+}
+.navbar ul li a{
+  color: #ff0048;
+  text-decoration: none;
+  font-size: 16px;
+}
+.navbar ul li a.mar{
+  margin: 0 35px;
+}
+.navbar ul li a.active{
+  color: #FFF;
+}
+/*end*/
+
+/*web folk*/
+.web{
+  width: 100%;
+  height: 700px;
+  background-image: url("../Images/cover.png");
+  background-size: cover;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+}
+.web .folk{
+  padding-top: 8%;
+  margin-bottom: 11%;
+}
+.web .folk h2{
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  font-style: italic;
+  font-family: 'Lobster', cursive;
+  font-weight: 500;
+}
+.web .folk h2 span{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: serif;
+}
+.web .folk p{
+  letter-spacing: 10px;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+.web .dream{
+  font-size: 25px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  font-weight: 100;
+}
+.web .work{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  background: #ff0048;
+  padding: 20px;
+  padding-top: 10px;
+  width: 200px;
+  height: 30px;
+  font-size: 18px;
+}
+.web .work p{
+  line-height: 0;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+}
+.web .work::after{
+  content: "";
+  border-top: 30px solid #ff0048;
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+  position: relative;
+  top: 35px;
+  left: 0px;
+}
+/*end*/
+
+/*image*/
+.image{
+  width: 100%;
+}
+.image .img{
+  width: 25%;
+  float: left;
+  height: 252px;
+}
+.image .img.im1{
+  background: url("../Images/image_1.jpg");
+}
+.image .img.im2{
+  background: url("../Images/image_2.jpg");
+}
+.image .img.im3{
+  background: url("../Images/image_3.jpg");
+}
+.image .img.im4{
+  background: url("../Images/image_4.jpg");
+}
+.image .img.im5{
+  background: url("../Images/image_8.jpg");
+}
+.image .img.im6{
+  background: url("../Images/image_6.jpg");
+}
+.image .img.im7{
+  background: url("../Images/image_7.jpg");
+}
+.image .img.im8{
+  background: url("../Images/image_5.jpg");
+}
+.image .img.im9{
+  background: url("../Images/image_9.jpg");
+}
+.image .img.im10{
+  background: url("../Images/image_10.jpg");
+}
+.image .img.im11{
+  background: url("../Images/image_12.jpg");
+}
+.image .img.im12{
+  background: url("../Images/image_11.jpg");
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  opacity: 0;
+}
+.image .img:hover .overlay{
+  opacity: 1;
+}
+.clear{
+  clear: both;
+}
+/*end*/
+
+/*meet*/
+.meet{
+  width: 100%;
+  height: auto;
+  position: relative;
+  text-align: center;
+}
+.meet .head{
+  position: absolute;
+  top: 0;
+  background: #ff0048;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 45px;
+}
+.meet .head::after{
+  content: "";
+  border-top: 30px solid #ff0048;
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+  position: relative;
+  top: 58px;
+  left: -30%;
+}
+.meet h2{
+  margin: 0;
+  padding: 6%;
+  padding-top: 12%;
+  color: #ff0048;
+  text-transform: capitalize;
+  font-size: 30px;
+}
+.meet .meet_image{
+  display: inline-block;
+  margin-top: 80px;
+}
+.meet .meet_image h3{
+  color: #ff0048;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+.meet .meet_image p{
+  font-family: sans-serif;
+  color: #777;
+}
+.meet button{
+  margin: 20px 0;
+  padding: 12px 40px;
+  background: #000;
+  border: none;
+  color: #FFF;
+  font-size: 14px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+/*end*/
+
+/*finish*/
+.end{
+  width: 100%;
+  height: 1050px;
+  background: url("../Images/Cover_2.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 3%;
+}
+.end .content{
+  width: 400px;
+  display: inline-block;
+  color: #FFF;
+  margin-top: 10%;
+  font-size: 16px;
+}
+.end .content.o{
+  margin-right: 60px;
+}
+.end .content h2{
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
+  text-transform: capitalize;
+}
+.end .content p{
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 20px;
+}
+.top{
+  margin: 40px 0;
+  background-color: #FFF;
+  color: #333;
+  padding: 12px 40px;
+  border: none;
+  font-size: 14px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.end .bol{
+  text-align: center;
+  margin-top: 7%;
+}
+.end .bol span{
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: #FFF;
+  border-radius: 50%;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.end .bol span:hover{
+  background: #ff0048;
+}
+.footer{
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  background: #EEE;
+  font-size: 25px;
+}
+
+/******************************** Contact.html *******************************/
+
+.contact{
+  width: 100%;
+  height: 600px;
+  background: url("../Images/coverPage2.png");
+  background-size: cover;
+  text-align: center;
+  padding-top: 5%;
+}
+.contact h2 , .book h2{
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 400;
+}
+.contact p{
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+.contact .form{
+  width: 520px;
+  height: 400px;
+  margin: auto;
+  margin-top: 3%;
+}
+.contact .form h2{
+  color: #ff0048;
+  font-style: normal;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.contact .form .fo input[type=text]{
+  display: block;
+  width: 100%;
+  height: 35px;
+  margin-bottom: 7px;
+  padding: 0;
+  border: none;
+  background: #ff0048;
+  opacity: 0.8;
+  color: #FFF;
+  padding-left: 10px;
+
+}
+.contact .form .fo textarea{
+  width: 99.7%;
+  border: none;
+  background: #ff0048;
+  opacity: 0.9;
+  color: #FFF;
+  padding-left: 10px;
+}
+::placeholder{
+    color: #FFF;
+    opacity: 1;
+}
+.contact .form input[type=submit]{
+  border: none;
+  background-color: #fff;
+  padding: 5px 10px;
+  color: #555;
+  float: right;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.def{
+  text-align: center;
+  padding-top: 3%;
+}
+.def .imgs{
+  margin-bottom: 0.5%;
+}
+.def h2{
+  margin: 0;
+  padding: 0;
+  color: #ff0048;
+  font-size: 25px;
+}
+.def p{
+  font-size: 16px;
+  margin-bottom: 3%;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+/************************* Book *******************************/
+.book{
+  width: 100%;
+  height: 820px;
+  background: url("../Images/coverPage2.png");
+  background-size: cover;
+  text-align: center;
+  padding-top: 5%;
+}
+.temp{
+  background: #FFF;
+  width: 80%;
+  margin: auto;
+  height: 600px;
+  padding-top: 80px;
+  margin-top: 10px;
+}
+.temp img{
+  float: left;
+  width: 45%;
+  margin-left: 5%;
+}
+.offer{
+  background: #EEE;
+  width: 45%;
+  margin: auto;
+  float: left;
+  height: 365px;
+  font-family: sans-serif;
+}
+.offer h3{
+  margin-top: 25%;
+  font-weight: 100;
+}
+.offer button{
+  border: none;
+  background: #000;
+  color: #FFF;
+  padding: 10px 20px;
+}
